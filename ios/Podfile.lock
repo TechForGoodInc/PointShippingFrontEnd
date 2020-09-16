@@ -1,0 +1,35 @@
+PODS:
+  - arkit_plugin (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - Stripe (19.3.0)
+  - stripe_payment (1.0.0):
+    - Flutter
+    - Stripe (>= 19.0.1)
+
+DEPENDENCIES:
+  - arkit_plugin (from `.symlinks/plugins/arkit_plugin/ios`)
+  - Flutter (from `Flutter`)
+  - stripe_payment (from `.symlinks/plugins/stripe_payment/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Stripe
+
+EXTERNAL SOURCES:
+  arkit_plugin:
+    :path: ".symlinks/plugins/arkit_plugin/ios"
+  Flutter:
+    :path: Flutter
+  stripe_payment:
+    :path: ".symlinks/plugins/stripe_payment/ios"
+
+SPEC CHECKSUMS:
+  arkit_plugin: 3e42571e8be84adabb8a178bd51c22fa981e16bd
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  Stripe: dd5bfdd5f1daed4f9ddbfb47e9449ec302f9f708
+  stripe_payment: ad86f099179edb7b9fe12b9b62ac3746d5e56802
+
+PODFILE CHECKSUM: 7368163408c647b7eb699d0d788ba6718e18fb8d
+
+COCOAPODS: 1.9.3
